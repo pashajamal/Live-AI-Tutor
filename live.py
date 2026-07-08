@@ -9,7 +9,6 @@ TAVUS_API_KEY = os.getenv("TAVUS_API_KEY")
 PERSONA_ID = "<PERSONA_ID>"
 REPLICA_ID = "<REPLICA_ID>"
 
-# Tavus API v2 requests ke liye
 HEADERS = {"x-api-key": TAVUS_API_KEY, "Content-Type": "application/json"}
 API = "https://tavusapi.com/v2"
 
