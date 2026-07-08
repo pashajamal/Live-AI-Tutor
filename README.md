@@ -51,8 +51,6 @@ Runs on **port 5002**.
 
 Run whichever app you want:
 
-```bash
-python simple.py   # http://localhost:5001
 
 ### `simple.py` flow
 - Enter a question in the input box.
