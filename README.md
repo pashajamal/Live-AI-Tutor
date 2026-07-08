@@ -49,9 +49,6 @@ Runs on **port 5002**.
 
 ## Usage
 
-Run whichever app you want:
-
-
 ### `simple.py` flow
 - Enter a question in the input box.
 - The app generates a script, kicks off video rendering, and polls for completion (up to ~2.5 minutes).
