@@ -53,8 +53,6 @@ Run whichever app you want:
 
 ```bash
 python simple.py   # http://localhost:5001
-python live.py      # http://localhost:5002
-```
 
 ### `simple.py` flow
 - Enter a question in the input box.
