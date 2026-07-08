@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 TAVUS_API_KEY = os.getenv("TAVUS_API_KEY")
 
-# 2. Tavus ke configurations (Persona aur Replica IDs jo character/behavior define karte hain)
+# 2. Tavus ke configurations (Persona aur Replica IDs jo character
 PERSONA_ID = "<PERSONA_ID>"
 REPLICA_ID = "<REPLICA_ID>"
 
