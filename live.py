@@ -3,7 +3,6 @@ import requests
 from flask import Flask, request, render_template_string
 from dotenv import load_dotenv
 
-# 1. Environment variables (.env file)
 load_dotenv()
 TAVUS_API_KEY = os.getenv("TAVUS_API_KEY")
 
