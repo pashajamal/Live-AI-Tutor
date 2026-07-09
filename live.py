@@ -12,7 +12,6 @@ REPLICA_ID = "<REPLICA_ID>"
 HEADERS = {"x-api-key": TAVUS_API_KEY, "Content-Type": "application/json"}
 API = "https://tavusapi.com/v2"
 
-# 3. HTML Jinja Template: Web
 HTML = """
 <!doctype html>
 <html lang="en">
