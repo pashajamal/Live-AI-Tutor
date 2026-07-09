@@ -47,7 +47,7 @@ HTML = """
 
 app = Flask(__name__)
 
-# Main route handling: GET request par normal form aur POST request
+# Main route handling: GET request par normal
 @app.route("/", methods=["GET", "POST"])
 def index():
     conversation_url = None
