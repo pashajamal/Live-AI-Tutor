@@ -45,7 +45,6 @@ HTML = """
 </html>
 """
 
-# 4. Flask Application
 app = Flask(__name__)
 
 # Main route handling: GET request par normal form aur POST request par API call run hoga
