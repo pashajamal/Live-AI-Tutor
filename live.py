@@ -51,7 +51,7 @@ app = Flask(__name__)
 def index():
     conversation_url = None
     
-    # Agar user ne 'Start Live Call' button dabaya hai (Form submit kiya hai)
+    # Agar user ne 'Start Live Call' button
     if request.method == "POST":
         # Form inputs se tutor ka custom background/context read karna
         ctx = request.form.get("context", "").strip()
