@@ -54,7 +54,7 @@ def index():
     if request.method == "POST":
         ctx = request.form.get("context", "").strip()
         
-        # Tavus /conversations endpoint ke liye payloa
+        # Tavus /conversations
         body = {
             "persona_id": PERSONA_ID,
             "replica_id": REPLICA_ID
