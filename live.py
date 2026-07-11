@@ -52,7 +52,7 @@ def index():
     conversation_url = None
     
     if request.method == "POST":
-        # Form inputs se tutor ka custom background/context read karna
+        # Form inputs se tutor ka custom
         ctx = request.form.get("context", "").strip()
         
         # Tavus /conversations endpoint ke liye payload (request body) banana
