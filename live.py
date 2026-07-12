@@ -64,7 +64,6 @@ def index():
 
         r = requests.post(f"{API}/conversations", headers=HEADERS, json=body, timeout=60)
         
-        # HTTP errors check karna
         r.raise_for_status()
         
         # API response se uniquely generated conversational streaming WebRTC link nikalna
