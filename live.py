@@ -62,7 +62,6 @@ def index():
         if ctx:
             body["conversational_context"] = ctx
 
-        # Tavus API ko POST request bhejna live
         r = requests.post(f"{API}/conversations", headers=HEADERS, json=body, timeout=60)
         
         # HTTP errors check karna (e.g., Status 401, 500 aane par code exception generate karega)
