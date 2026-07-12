@@ -59,7 +59,7 @@ def index():
             "replica_id": REPLICA_ID
         }
         
-        # Agar context empty nahi hai, toh hi request body mein inject karein
+        # Agar context empty nahi hai,
         if ctx:
             body["conversational_context"] = ctx
 
