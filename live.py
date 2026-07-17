@@ -66,7 +66,6 @@ def index():
         
         r.raise_for_status()
         
-        # API response se uniquely generated conversational
         conversation_url = r.json().get("conversation_url")
 
     # Pure dynamic layout aur variable state ko end-user ke browser par render karna
