@@ -67,8 +67,7 @@ def index():
         r.raise_for_status()
         
         conversation_url = r.json().get("conversation_url")
-
-    # Pure dynamic layout aur variable state ko end-user ke browser par render karna
+      
     return render_template_string(HTML, conversation_url=conversation_url)
 
 # 5. Application entry point: Server ko run karna (Localhost:5002 par run karega)
