@@ -70,6 +70,5 @@ def index():
       
     return render_template_string(HTML, conversation_url=conversation_url)
 
-# 5. Application entry point: Server ko run karna (Localhost:5002 par run karega)
 if __name__ == "__main__":
     app.run(debug=True, port=5002)
